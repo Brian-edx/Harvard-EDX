@@ -12,7 +12,7 @@ I made the following further changes:
 * Changed love.update() to implement a basic AI mode for player one:
 
 ```
-    if TWO_PLAYER_MODE the
+    if TWO_PLAYER_MODE then
         -- This is the pre-existing two-player code:
         if love.keyboard.isDown('w') then
             player1.dy = -PADDLE_SPEED
